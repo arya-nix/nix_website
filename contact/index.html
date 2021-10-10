@@ -2,7 +2,7 @@
 <html class="no-js" lang="en-us"><head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="description" content="This is meta description">
+<meta name="description" content="Contact Nix Technologies">
 
 <meta name="generator" content="Hugo 0.88.1" />
 
@@ -179,7 +179,8 @@
             
             <!-- Contact Form -->
             <div class="contact-form col-12 col-md-6 ">
-                <div>
+                <form method="post" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeJreUCC5cJFhE0_UDmgoWdCMF_0yCwwzEdjzx8jQT4ojZLUw/formResponse"
+                    role="form">
                     <div class="form-group">
                         <input type="text" id="name" placeholder="Your Name" class="form-control" name="entry.803029585">
                     </div>
@@ -189,7 +190,7 @@
                     </div>
 
                     <div class="form-group">
-                        <input type="text" id="phone" placeholder="Phone" class="form-control" name="entry.1462178775">
+                        <input type="text" id="phone" placeholder="Your Phone" class="form-control" name="entry.1462178775">
                     </div>
 
                     <div class="form-group">
@@ -197,7 +198,7 @@
                     </div>
 
                     <div class="form-group">
-                        <textarea rows="6" id="message" placeholder="Message" class="form-control" name="entry.1249827638"></textarea>
+                        <textarea rows="6" placeholder="Message" class="form-control" name="message"></textarea>
                     </div>
 
                     <div id="mail-success" class="success">
@@ -209,9 +210,9 @@
                     </div>
 
                     <div id="cf-submit">
-                        <input type="submit" class="btn btn-transparent" value="Submit" onclick="postForm()">
+                        <input type="submit" class="btn btn-transparent" value="Submit">
                     </div>
-                </div>
+                </form>
             </div>
         </div>
         <div class="row">
@@ -239,38 +240,6 @@
         </div>
     </div>
 </section>
-<script>
-    function postForm () {
-        let name = document.getElementById("name").value;
-        let email = document.getElementById("email").value;
-        let phone = document.getElementById("phone").value;
-        let subject = document.getElementById("subject").value;
-        let message = document.getElementById("message").value;
-
-        let data = `entry.803029585=${name}&entry.947628756=${email}&entry.1462178775=${phone}&entry.1097781441=${subject}&entry.1249827638=${message}`;
-        debugger;
-
-        $.ajax({
-            type: "POST",
-            url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeJreUCC5cJFhE0_UDmgoWdCMF_0yCwwzEdjzx8jQT4ojZLUw/formResponse",
-            async: false,
-            
-            data,
-            headers: {
-                'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-                'sec-fetch-mode': "navigate",
-                'sec-fetch-user': '?1',
-                'sec-fetch-dest': 'document',
-                'contentType': "application/x-www-form-urlencoded",
-                'cookie': 'CONSENT=YES+IN.en+20170910-09-0; __Secure-3PSID=BQh4c5LA0aZvqex-QmdYltnKB5VPa0Y2PwyNLa_txIuX0bFDmxv6D8UfPgJ8f5wjh5xCBA.; __Secure-3PAPISID=1rrxoCvjti0Yqp2-/A-zCuCTqoKS20aYLt; 1P_JAR=2021-09-04-13; NID=222=DZ2TMbw0hkaBcQwCE1UY34P-Az0hH--m_Nlrr756fOIGAhi3DLxEZ6btdlg_a4i2G6zr7mwX5AqYihBSb_hi0Hc8gJIFykbHPZ8h1KXxRhkJvSHQ2K7LymGVv0OjJQseopAw9ivnJoxqrzyKwZIeCFuU1Z9pPdGruuNlP5nhaar_RGKKpaJB8EXiXe2BHWbVEULVtZy20hlvEhNk1yS4SOYbu1hTdNdZygRAfA2kEAemtWOPdXO9mdwTT03AwcKzxSvMwXk6nccp99NzW_i3YKMjcZaJFvyG-O-e2hZmqNAoOkajU4OI9EPJyR8yhBZKesFptZQMXEmtKia0O01YC_hi0tYNfJXd-AmCcAP_dXPQmhedE94A41_GbU07Wki6_2Jj8ORXkMgCiRo--PRP_2Ys3Vm9OQ5z5_h0zM5U7PIaEOY8cYVIIiFPjfq0xOzNuWpJmdAKM_otdg; SIDCC=AJi4QfH-ZsMTn6WzW-f8rJqXk4chO-4Cezbkk3jpv4dlMNBp8Fm4Lx6P3NLCBy6MjzJ2V7rWBHE; __Secure-3PSIDCC=AJi4QfEd2QVdIq4Hao4OfYdp1FgwSUdkLQqCYY-7cQ3I-XDCVM0tBJsSq4BOHCoJ_929d_6jLY4'
-            },
-            complete: function (data) {
-                console.log(data);
-                wait = false;
-            }
-        });
-    }
-</script>
 
 
 
@@ -281,26 +250,26 @@
             <div class="row">
                 <div class="col-sm-4 col-md-4 col-lg-4">
                     <h3>About</h3>
-                    <p>NIX TECHONOLOGIES combines the power of professionals from different fields to stitch the hand made solution for your business, to help you grow faster.</p>
+                    <p>We are a team of professionals who solve complex problems through engineering to make people&#39;s life easier.</p>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4 text-center">
                     <h3>Services</h3>
                     <ul>
                         
                         <li>
-                            <p class="mb-0 pr-0">Software Consulting</p>
+                            <a href="/service/" class="mb-0 pr-0">Software Consulting</a>
                         </li>
                         
                         <li>
-                            <p class="mb-0 pr-0">Cloud Computing</p>
+                            <a href="/service/" class="mb-0 pr-0">Cloud Computing</a>
                         </li>
                         
                         <li>
-                            <p class="mb-0 pr-0">Hardware &amp; Robotics</p>
+                            <a href="/service/" class="mb-0 pr-0">Hardware &amp; Robotics</a>
                         </li>
                         
                         <li>
-                            <p class="mb-0 pr-0">Machine Learning</p>
+                            <a href="/service/" class="mb-0 pr-0">Machine Learning</a>
                         </li>
                         
                     </ul>
